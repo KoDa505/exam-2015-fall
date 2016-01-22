@@ -6,7 +6,13 @@
 
 
 
-
+function tripleEachElement(array) {
+  var newArray = [];
+  array.forEach(function(element) {
+    newArray.push(element*3)
+  });
+  return newArray;
+}
 
 
 
